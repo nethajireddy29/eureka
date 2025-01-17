@@ -8,6 +8,11 @@ import cv2
 import numpy as np
 from google.colab import files
 
+'''from torchvision.models.detection import FasterRCNN_ResNet50_FPN_Weights
+
+# Get the COCO class names
+coco_classes = FasterRCNN_ResNet50_FPN_Weights.DEFAULT.meta['categories']
+print(coco_classes)'''
 COCO_CLASSES = [
     "__background__", "person", "bicycle", "car", "motorcycle", "airplane", "bus",
     "train", "truck", "boat", "traffic light", "fire hydrant", "N/A", "stop sign",
